@@ -1,9 +1,10 @@
 # Python Challenge
 Python Programming
 
-# Financial Analysis 
+## Financial Analysis 
 Python Program to Analyze the Financial records of a company
-# Results
+### Results
+
 Financial Analysis 
 -------------------------
 
@@ -17,15 +18,15 @@ Financial Analysis
  
  Greatest Decrease in Profits:  Feb-14 ($-1825558)
  
- # Conclusions
+ ### Conclusions
  1. The total Profit/Loss amounts to $22564198. 
  2. Greatest increase in Profit is seen in the months of August , year 2016
  3. Greatest decrease in Profit is seen in the month of February , year 2014
 
  
- # Election Results Analysis 
+ ## Election Results Analysis 
  Python Program to help a small town modernize its vote counting process 
- # Results
+ ### Results
  Election Results
 -------------------------
 
@@ -45,8 +46,8 @@ Financial Analysis
 
 -------------------------
 
-# Conclusions
+### Conclusions
 Diana DeGette wins the elections with 73.8% votes.
 
-# References
+## References
 Data Source: As provided by Edx
