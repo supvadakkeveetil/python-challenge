@@ -7,8 +7,8 @@ import csv
 
 total_votes=0
 winner_votes=0
-csvpath = os.path.join('..', "Resources", 'election_data.csv')
-output_text_file=os.path.join('..', "Resources", 'Election_Analysis.txt')
+csvpath = os.path.join("Resources", 'election_data.csv')
+output_text_file=os.path.join("Analysis", 'Election_Analysis.txt')
 # List of Candidates and Votes
 Candidate_List ={}
 
