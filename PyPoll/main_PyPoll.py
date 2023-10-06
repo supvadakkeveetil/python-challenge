@@ -4,7 +4,7 @@
 # to create file paths across OS
 import os
 import csv
-import contextlib
+
 total_votes=0
 winner_votes=0
 csvpath = os.path.join('..', "Resources", 'election_data.csv')
@@ -15,11 +15,12 @@ Candidate_List ={}
 # Reading the values in the csv file
 
 with open(csvpath) as csvfile:
-    csvreader= csv.DictReader(csvfile, delimiter=',')
-    
+    csvreader= csv.reader(csvfile, delimiter=',')
+    csv_header = next(csvreader)
+    print(csv_header)
     for row in csvreader:
         total_votes= total_votes+1
-        candidate =row["Candidate"]
+        candidate =row[2]
         #use the keys() method to get all the keys from the Candidate_List dictionary
         #if the name is not in the list add the candidate name and set the vote count to 1 else increment the candidates vote count
         if candidate not in Candidate_List.keys():
